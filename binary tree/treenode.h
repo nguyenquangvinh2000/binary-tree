@@ -7,11 +7,12 @@
 
 #ifndef treenode_h
 #define treenode_h
-
+using namespace std;
+template<class T>
 struct treenode{
-    int data;
-    treenode *left;
-    treenode *right;
+    T data;
+    treenode<T> *left;
+    treenode<T> *right;
 };
 
 #endif /* treenode_h */
