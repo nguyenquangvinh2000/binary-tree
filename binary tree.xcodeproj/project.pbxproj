@@ -26,9 +26,9 @@
 		071CE3712549A23500E58AF0 /* binary tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "binary tree"; sourceTree = BUILT_PRODUCTS_DIR; };
 		071CE3742549A23500E58AF0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		074CD9FE255437CB00B0B1A6 /* treenode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = treenode.h; sourceTree = "<group>"; };
-		074CD9FF2554381300B0B1A6 /* caynhiphan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = caynhiphan.h; sourceTree = "<group>"; };
 		07E0F8172559A81D00C7EB08 /* node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
 		07E0F8182559A8E900C7EB08 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		07F7B3E9255AE33B000DBE93 /* binarytree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binarytree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				071CE3742549A23500E58AF0 /* main.cpp */,
-				074CD9FF2554381300B0B1A6 /* caynhiphan.h */,
+				07F7B3E9255AE33B000DBE93 /* binarytree.h */,
 				074CD9FE255437CB00B0B1A6 /* treenode.h */,
 				07E0F8172559A81D00C7EB08 /* node.h */,
 				07E0F8182559A8E900C7EB08 /* list.h */,

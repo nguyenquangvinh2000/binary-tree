@@ -42,7 +42,51 @@ public:
         }
         return p->data;
     }
-    
+    int Count() const{
+        int dem = 0;
+        node<T> *p=head;
+        while(p!=0){
+            p=p->next;
+            dem++;
+        }
+        return dem;
+    }
+    void insert(T item, int index){
+        node<T> *n = new node<T>;
+        n->data = item;
+        if(index == 1)
+        {
+            n->next=head;
+            head = n;
+        }
+        else {
+            node<T> *p = new node<T>;
+            for(int i=1;i<index-1;i++)
+            {
+                p=p->next;
+            }
+            n->next = p->head;
+            p->next = n;
+        }
+    }
+    void Delete(int index){
+        if(index == 1){
+            node<T> *p = head;
+            head=head->next;
+            delete p;
+        }
+        else{
+            node<T> *p = head;
+            for(int i=1;i<index-1;i++){
+                p=p->next;
+            }
+            node<T> *q = p->next;
+            p->next = p->next->next;
+            delete q;
+            
+        }
+        
+    }
     
 };
 
